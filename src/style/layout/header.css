@@ -1,0 +1,198 @@
+.sidebar-nexflow {
+  width: 280px;
+  background: #1e293b;
+  color: white;
+}
+
+.sidebar-nexflow .offcanvas-title {
+  color: white;
+  font-weight: bold;
+}
+header{
+    display: flex;
+
+}
+.menu-btn {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+
+.menu-btn:hover {
+  background: #2563eb;
+  color: white;
+
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+.pe-nav {
+  max-width: 450px;
+  display: flex;
+  
+}
+
+
+.login_user_button {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+  
+}
+.title_main_As{
+  font-weight: bold;
+
+  font-family: "Arimo", sans-serif;
+}
+
+
+
+.header-main {
+    display: flex;
+    align-items: center;
+      justify-content: space-between;
+    width: 100%;
+    padding: 1px 20px;
+  border: 3px solid red;
+
+}
+
+.title_main {
+    display: flex;
+    align-items: center;
+}
+
+.title_main h1 {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.logo_aetherion {
+    width: 205px;
+    height: 205px;
+    object-fit: contain;
+    
+}
+
+.dropdown-item-Password, .dropdown-item-User {
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+  margin: 10px;
+  border-radius: 10px;
+
+ 
+}
+li {
+  list-style-type: none;
+}
+.dropdown-item-Password input, .dropdown-item-User input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  border: #1e293b solid 1px;
+}
+
+
+.button_login_cd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.dropdown-item-Password {
+    position: relative;
+    list-style: none;
+
+}
+
+.dropdown-item-Password input {
+    width: 100%;
+    padding: 12px 45px 12px 12px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    gap: 30px;
+    
+
+}
+
+.ver_Senha {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.ver_Senha img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.ver_Senha:hover {
+    opacity: 4.8;
+}
+
+.ver_Senha:active {
+    transform: translateY(-50%) scale(1.05);
+}
+
+#button_cadastro{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin:  auto;
+  margin-top: 10px;
+  width: 100%;
+
+
+}
+
+.cadastro{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 10px;
+  width: 100%;
+
+}
+
+#input_cadastro{
+  border-radius: 10px;
+    border: 1px solid #ccc;
+
+
+}
+#input_cadastro:active{
+    transform: translateY(-3%) scale(1.02);
+
+}
+
+.Home-tittle{
+  display: flex;
+  margin:  auto;  
+  margin-right: 100px;
+}

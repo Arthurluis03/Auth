@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="src/style/style.css">
+
+    <script type="module" src="src/js/login.js" defer></script>
+    <script type="module" src="src/script/app.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+<button id="loginButtonUser"
+    type="button"
+    class="btn btn-secondary"
+    data-bs-toggle="modal"
+    data-bs-target="#loginModal">
+
+    Entrar
+
+</button>
+
+
+<div class="modal fade"
+    id="loginModal"
+    tabindex="-1"
+    aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title" id="loginModalLabel">
+                    Conta
+                </h5>
+
+                <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Fechar">
+                </button>
+
+            </div>
+
+
+            <div class="modal-body">
+
+                <form id="loginForm" class="login_user">
+
+                    <div class="dropdown-item-User">
+
+                        <input id="email_login"
+                            type="email"
+                            placeholder="Email">
+
+                    </div>
+
+
+                    <div class="dropdown-item-Password">
+
+                        <input id="password_login"
+                            type="password"
+                            placeholder="Senha">
+
+                        <button class="ver_Senha"
+                            id="password_show"
+                            type="button">
+
+                            <img src="src/images/olho.png"
+                                alt="verSenha">
+
+                        </button>
+
+                    </div>
+
+
+                    <button id="button_login"
+                        type="submit"
+                        class="btn btn-primary button_login_cd">
+
+                        Logar
+
+                    </button>
+
+                </form>
+
+
+                <button type="button"
+                    id="button_cadastro"
+                    class="btn btn-primary button_cadastro"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+
+                    Cadastro
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="modal fade"
+    id="staticBackdrop"
+    data-bs-backdrop="static"
+    data-bs-keyboard="false"
+    tabindex="-1"
+    aria-labelledby="staticBackdropLabel"
+    aria-hidden="true">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h1 class="modal-title fs-5"
+                    id="staticBackdropLabel">
+
+                    Cadastro
+
+                </h1>
+
+                <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close">
+                </button>
+
+            </div>
+
+
+            <div class="modal-body cadastro">
+
+                <div class="dropdown-item-Password">
+
+                    <input id="nome_cadastro"
+                        type="text"
+                        placeholder="Nome">
+
+                </div>
+
+
+                <div class="dropdown-item-Password">
+
+                    <input id="email_cadastro"
+                        type="email"
+                        placeholder="Email">
+
+                </div>
+
+
+                <div class="dropdown-item-Password">
+
+                    <input id="password_cadastro"
+                        type="password"
+                        placeholder="Senha">
+
+                    <button class="ver_Senha"
+                        id="password_show_cadastro"
+                        type="button">
+
+                        <img src="src/images/olho.png"
+                            alt="verSenha">
+
+                    </button>
+
+                </div>
+
+
+                <div class="dropdown-item-Password">
+
+                    <input id="password_confirmCadastro"
+                        type="password"
+                        placeholder="Confirmar Senha">
+
+                    <button class="ver_Senha"
+                        id="password_show_confirm"
+                        type="button">
+
+                        <img src="src/images/olho.png"
+                            alt="verSenha">
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="modal-footer">
+
+                <button type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Close
+
+                </button>
+
+                <button id="button_confirmCadastro"
+                    type="button"
+                    class="btn btn-primary">
+
+                    Confirmar
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+
+</html>
